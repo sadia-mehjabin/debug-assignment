@@ -5,9 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>blog</title>
+    <style>
+        .question{
+            font-size:20px;
+            font-weight: 600;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .answer{
+            font-size: 18px;
+            font-weight: 500;  
+        }
+        .container{
+            margin: 40px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome To Blog Page</h1>
-    
+    <section>
+        <div class="container">
+            <h1>Welcome To Blog Page</h1>
+                <p class="question">Question: What Is The Difference Between Local Storage And Session Storage?</p>
+                <p class="answer">Ans: The difference between sessionStorage and localStorage is that localStorage data does not expire, whereas sessionStorage data is cleared when the page session ends. A unique page session gets created once a document is loaded in a browser tab. Page sessions are valid for only one tab at a time </p>
+        </div>
+    </section>
 </body>
 </html>
